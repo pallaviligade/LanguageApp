@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class LanguageViewModel: ObservableObject
+class LanguageViewModel: ObservableObject // ViewModel
 {
   @Published  var language: [Language] = [
         Language(name: "German", flag: "🇩🇪"),
